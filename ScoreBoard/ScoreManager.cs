@@ -25,12 +25,6 @@ public class ScoreManager : MonoBehaviour
 		void Start ()
 		{
 				Initialize ();
-				AddPlayer ("Shadow", TeamColours.blue);
-				AddPlayer ("Fang", TeamColours.red);
-				IncrementStats (0, "Kills", 3);
-				IncrementStats (0, "Kills", -1);
-				SetStats (1, "Deaths", 3);
-				
 		}
 
 		[System.Serializable]
